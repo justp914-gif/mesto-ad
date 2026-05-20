@@ -5,6 +5,7 @@ const handleEscUp = (evt) => {
   }
 };
 
+
 export const openModalWindow = (modalWindow) => {
   modalWindow.classList.add("popup_is-opened");
   document.addEventListener("keyup", handleEscUp);
