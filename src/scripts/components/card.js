@@ -5,6 +5,7 @@ const getTemplate = () => {
     .cloneNode(true);
 };
 
+
 const getLikeButton = (cardElement) =>
   cardElement.querySelector(".card__like-button");
 
