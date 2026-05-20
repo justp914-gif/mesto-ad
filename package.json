@@ -1,0 +1,26 @@
+{
+  "name": "mesto-ad",
+  "version": "1.0.0",
+  "description": "https://github.com/justp914-gif/mesto-ad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justp914-gif/mesto-ad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/justp914-gif/mesto-ad/issues"
+  },
+  "homepage": "https://github.com/justp914-gif/mesto-ad.git#readme",
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

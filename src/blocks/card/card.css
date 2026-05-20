@@ -17,3 +17,23 @@
   position: relative;
   overflow: hidden;
 }
+
+.card__likes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.card__like-button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Счетчик лайков */
+.card__like-count {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1;
+  text-align: center;
+}
