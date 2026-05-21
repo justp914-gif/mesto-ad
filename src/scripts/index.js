@@ -103,11 +103,11 @@ const handlePreviewPicture = ({ name, link }) => {
   openModalWindow(imageModalWindow);
 };
 
-const handleLikeClick = (cardElement, cardId) => {
-  const isLiked = isCardLiked(cardElement);
+const handleLikeClick = (cardElement, cardId, likeButton, likeCountElement) => {
+  const isLiked = isCardLiked(likeButton);
   changeLikeCardStatus(cardId, isLiked)
     .then((updatedCard) => {
-      renderCardLikes(cardElement, updatedCard.likes, currentUserId);
+      renderCardLikes(likeButton, likeCountElement, updatedCard.likes, currentUserId);
     })
     .catch((err) => console.log(err));
 };
